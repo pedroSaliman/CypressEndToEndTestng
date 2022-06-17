@@ -1,0 +1,24 @@
+{
+  "name": "cycourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open":"npx cypress open",
+    "test":"npx cypress run",
+    "testhead":"npm run test -- --headed",
+    "chrome":"npm run test -- --browser chrome",
+    "dash":"npx cypress run --record --key bd5619b0-0173-4272-9f2e-1f9af00e7371"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.3",
+    "cypress-mochawesome-reporter": "^3.1.0"
+  },
+  "devDependencies": {
+    "cypress-dark": "^1.8.3"
+  }
+}
